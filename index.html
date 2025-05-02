@@ -162,7 +162,7 @@ async function capturarYPredecir() {
   document.getElementById("resultado").textContent = "Enviando imagen...";
 
   try {
-    const res = await fetch("https://TU_BACKEND_URL/predict", {
+    const res = await fetch("https://birds-backend-j6k8.onrender.com/predict", {
       method: "POST",
       body: formData
     });
